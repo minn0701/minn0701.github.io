@@ -3,9 +3,9 @@
 # configure these values for your project
 project:
   name: "{CodeCinnamon}"
-  owner: "{project_owner}"
+  owner: "{minn0701}"
   repo: "{project_repo}"
-  version: "{project_version}"
+  version: "{1.0.0}"
 
 collections:
   api:
