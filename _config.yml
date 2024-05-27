@@ -2,9 +2,9 @@
 # default site settings
 # configure these values for your project
 project:
-  name: "{CodeCinnamon}"
-  owner: "{minn0701}"
-  repo: "{project_repo}"
+  name: "CodeCinnamon"
+  owner: "minn0701"
+  repo: "minn0701.github.io"
   version: "{1.0.0}"
 
 collections:
