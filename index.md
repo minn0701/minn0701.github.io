@@ -3,12 +3,13 @@ layout: page
 title: Welcome
 ---
 
-# {{ page.title }}
+# 어서오세요
 
-**programming pages** is a [GitHub Pages][gh-pages] theme for publishing code documentation.
-{:.larger.text}
+연락처
 
-For more details, please refer to the [documentation][theme-docs]
+- minn0701@naver.com
+- minn0701.github.io
+- minn0701@cju.ac.kr
 
 
 
