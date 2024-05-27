@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CodeCinnamon
+title: Welcome
 ---
 
 # {{ page.title }}

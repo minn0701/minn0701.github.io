@@ -2,17 +2,8 @@
 # default site settings
 # configure these values for your project
 project:
-<<<<<<< Updated upstream
-  name: "{CodeCinnamon}"
-<<<<<<< HEAD
-  owner: "{minn0701}"
-=======
+  name: "{project_name}"
   owner: "{project_owner}"
->>>>>>> 5414752c1b6fb2c4dafde10283c33bd75fc15590
-=======
-  name: "{CodeCinnamon}"
-  owner: "{minn0701}"
->>>>>>> Stashed changes
   repo: "{project_repo}"
   version: "{project_version}"
 
