@@ -10,6 +10,7 @@ title: Welcome
 - minn0701@naver.com
 - minn0701.github.io
 - minn0701@cju.ac.kr
+- 페이지 구성 설명서 https://pixeldroid.com/programming-pages/guides/Authoring-Documentation/#project-configuration
 
 
 
