@@ -1,25 +1,12 @@
 {
-  "vaultName": "OpenVault",
-  "lastExport": 1728975409460,
+  "vaultName": "cinnamon",
+  "lastExport": 1729144566338,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "개인노트/마크다운 문법.md",
-    "네트워크보안/dns spoof.md",
-    "리눅스/쉘프로그래밍.md",
-    "리눅스/웹서버 구축.md",
     "시스템보안/Previleged escalation (권한상승).md",
-    "create a link.md",
-    "Pasted image 20241015102457.png",
-    "Pasted image 20241015131317.png",
-    "Pasted image 20241015141144.png",
-    "Pasted image 20241015141535.png",
-    "Pasted image 20241015142308.png",
-    "Pasted image 20241015142538.png",
-    "Pasted image 20241015143959.png",
-    "Pasted image 20241015151319.png",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -33,8 +20,7 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg"
+    "lib/media/874d8b8e340f75575caa.svg"
   ],
   "mainDependencies": [
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -50,182 +36,97 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg"
+    "lib/media/874d8b8e340f75575caa.svg"
   ],
   "fileInfo": {
-    "개인노트/마크다운 문법.md": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 1013,
-      "exportedPath": "개인노트/마크다운 문법.html",
-      "dependencies": []
-    },
-    "네트워크보안/dns spoof.md": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 0,
-      "exportedPath": "네트워크보안/dns spoof.html",
-      "dependencies": []
-    },
-    "리눅스/쉘프로그래밍.md": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 3511,
-      "exportedPath": "리눅스/쉘프로그래밍.html",
-      "dependencies": []
-    },
-    "리눅스/웹서버 구축.md": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 897,
-      "exportedPath": "리눅스/웹서버 구축.html",
-      "dependencies": []
-    },
-    "시스템보안/Previleged escalation (권한상승).md": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 828,
-      "exportedPath": "시스템보안/Previleged escalation (권한상승).html",
-      "dependencies": []
-    },
-    "create a link.md": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 13,
-      "exportedPath": "create a link.html",
-      "dependencies": []
-    },
-    "Pasted image 20241015102457.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 116567,
-      "exportedPath": "Pasted image 20241015102457.png",
-      "dependencies": []
-    },
-    "Pasted image 20241015131317.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 21439,
-      "exportedPath": "Pasted image 20241015131317.png",
-      "dependencies": []
-    },
-    "Pasted image 20241015141144.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 17551,
-      "exportedPath": "Pasted image 20241015141144.png",
-      "dependencies": []
-    },
-    "Pasted image 20241015141535.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 31691,
-      "exportedPath": "Pasted image 20241015141535.png",
-      "dependencies": []
-    },
-    "Pasted image 20241015142308.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 14163,
-      "exportedPath": "Pasted image 20241015142308.png",
-      "dependencies": []
-    },
-    "Pasted image 20241015142538.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 30837,
-      "exportedPath": "Pasted image 20241015142538.png",
-      "dependencies": []
-    },
-    "Pasted image 20241015143959.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 28653,
-      "exportedPath": "Pasted image 20241015143959.png",
-      "dependencies": []
-    },
-    "Pasted image 20241015151319.png": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 31711,
-      "exportedPath": "Pasted image 20241015151319.png",
-      "dependencies": []
-    },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1728975409460,
+      "modifiedTime": 1729144566338,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
-    "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1728975409460,
-      "sourceSize": 279,
-      "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
+    "시스템보안/Previleged escalation (권한상승).md": {
+      "modifiedTime": 1729144566338,
+      "sourceSize": 5584,
+      "exportedPath": "시스템보안/Previleged escalation (권한상승).html",
       "dependencies": []
     }
   }
