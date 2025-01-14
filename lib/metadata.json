@@ -1,6 +1,6 @@
 {
-  "vaultName": "cinnamon",
-  "lastExport": 1734280120140,
+  "vaultName": "Obsidian",
+  "lastExport": 1736846144382,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -12,9 +12,15 @@
     "뇌/1. 네트워크보안/08. VPN과 터널링.md",
     "뇌/1. 네트워크보안/09. TCP 세션 하이재킹.md",
     "뇌/1. 네트워크보안/10. DoS.md",
-    "뇌/1. 네트워크보안/11. 1차 보안솔루션, 침입차단시스템.md",
+    "뇌/1. 네트워크보안/11. 침입차단 시스템 ( 방화벽 , Firewall ).md",
     "뇌/1. 네트워크보안/네트워크보안.md",
     "뇌/1. 네트워크보안/12. IDS,IPS.md",
+    "뇌/1. 네트워크보안/Well-known Prot Number.md",
+    "뇌/2. 리눅스/리눅스/웹메일 구성.md",
+    "뇌/2. 리눅스/리눅스/APACHE&Httpd 설정.md",
+    "뇌/2. 리눅스/리눅스/sendmail.md",
+    "뇌/2. 리눅스/리눅스/skel.md",
+    "뇌/2. 리눅스/리눅스/vsftp.md",
     "뇌/2. 리눅스/리눅스 터미널/리눅스 쉘.md",
     "뇌/2. 리눅스/리눅스 터미널/메타문자.md",
     "뇌/2. 리눅스/리눅스 터미널/잡다한 참고.md",
@@ -50,6 +56,7 @@
     "뇌/3. 시스템보안/MITRE ATT&CK/서버 점검 스크립트 작성 실습.md",
     "뇌/3. 시스템보안/MITRE ATT&CK/WINDOWS PASSWORD GUESSING.md",
     "뇌/3. 시스템보안/시스템보안.md",
+    "뇌/클라우드/01.도커 (Docker) 이해하기.md",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -63,7 +70,8 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/media/pasted-image-20250114172307.png"
   ],
   "mainDependencies": [
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -82,352 +90,484 @@
     "lib/media/874d8b8e340f75575caa.svg"
   ],
   "fileInfo": {
-    "뇌/1. 네트워크보안/05. 목록화.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 5328,
-      "exportedPath": "뇌/1. 네트워크보안/05. 목록화.html",
-      "dependencies": []
-    },
-    "뇌/1. 네트워크보안/06. 스니핑.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 4644,
-      "exportedPath": "뇌/1. 네트워크보안/06. 스니핑.html",
-      "dependencies": []
-    },
-    "뇌/1. 네트워크보안/07. 스푸핑.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 2329,
-      "exportedPath": "뇌/1. 네트워크보안/07. 스푸핑.html",
-      "dependencies": []
-    },
-    "뇌/1. 네트워크보안/08. VPN과 터널링.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 7214,
-      "exportedPath": "뇌/1. 네트워크보안/08. VPN과 터널링.html",
-      "dependencies": []
-    },
-    "뇌/1. 네트워크보안/09. TCP 세션 하이재킹.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 3296,
-      "exportedPath": "뇌/1. 네트워크보안/09. TCP 세션 하이재킹.html",
-      "dependencies": []
-    },
-    "뇌/1. 네트워크보안/10. DoS.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 2698,
-      "exportedPath": "뇌/1. 네트워크보안/10. DoS.html",
-      "dependencies": []
-    },
-    "뇌/1. 네트워크보안/네트워크보안.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 154,
-      "exportedPath": "뇌/1. 네트워크보안/네트워크보안.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/리눅스 쉘.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 4519,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/리눅스 쉘.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/메타문자.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 3806,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/메타문자.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/잡다한 참고.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 923,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/잡다한 참고.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/attribute.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 640,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/attribute.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/awk.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 947,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/awk.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/cat.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 927,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/cat.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/cut.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 477,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/cut.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/expr.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 493,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/expr.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/find.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 4940,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/find.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/grep.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 1030,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/grep.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/head, tail.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 633,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/head, tail.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/history.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 1686,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/history.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/more, less.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 1395,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/more, less.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/sed.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 1095,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/sed.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/sort.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 722,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/sort.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/split.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 401,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/split.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/tee xargs calibration.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 1192,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/tee xargs calibration.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/touch.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 496,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/touch.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스 터미널/tr.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 713,
-      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/tr.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/쉘 프로그래밍/1. 쉘 프로그래밍 기초.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 11496,
-      "exportedPath": "뇌/2. 리눅스/쉘 프로그래밍/1. 쉘 프로그래밍 기초.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/웹서버/2. DNS 서버.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 5722,
-      "exportedPath": "뇌/2. 리눅스/웹서버/2. DNS 서버.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/웹서버/3. LAMP 서버 구축.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 8878,
-      "exportedPath": "뇌/2. 리눅스/웹서버/3. LAMP 서버 구축.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/웹서버/4. 웹운영.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 2448,
-      "exportedPath": "뇌/2. 리눅스/웹서버/4. 웹운영.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/웹서버/1. 웹서버 개요.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 5181,
-      "exportedPath": "뇌/2. 리눅스/웹서버/1. 웹서버 개요.html",
-      "dependencies": []
-    },
-    "뇌/2. 리눅스/리눅스.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 417,
-      "exportedPath": "뇌/2. 리눅스/리눅스.html",
-      "dependencies": []
-    },
-    "뇌/3. 시스템보안/취약점 실습/Buffer overFlow.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 10103,
-      "exportedPath": "뇌/3. 시스템보안/취약점 실습/Buffer overFlow.html",
-      "dependencies": []
-    },
-    "뇌/3. 시스템보안/취약점 실습/Previleged escalation (권한상승).md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 6436,
-      "exportedPath": "뇌/3. 시스템보안/취약점 실습/Previleged escalation (권한상승).html",
-      "dependencies": []
-    },
-    "뇌/3. 시스템보안/MITRE ATT&CK/1. MITRE ATT&CK.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 2546,
-      "exportedPath": "뇌/3. 시스템보안/MITRE ATT&CK/1. MITRE ATT&CK.html",
-      "dependencies": []
-    },
-    "뇌/3. 시스템보안/시스템보안.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 295,
-      "exportedPath": "뇌/3. 시스템보안/시스템보안.html",
-      "dependencies": []
-    },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
-    "뇌/1. 네트워크보안/11. 1차 보안솔루션, 침입차단시스템.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 3234,
-      "exportedPath": "뇌/1. 네트워크보안/11. 1차 보안솔루션, 침입차단시스템.html",
+    "뇌/클라우드/01.도커 (Docker) 이해하기.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 4098,
+      "exportedPath": "뇌/클라우드/01.도커 (Docker) 이해하기.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250114172307.png": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 306749,
+      "exportedPath": "lib/media/pasted-image-20250114172307.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 2258,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 301,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 131021,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1736846001603,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/05. 목록화.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 5328,
+      "exportedPath": "뇌/1. 네트워크보안/05. 목록화.html",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/06. 스니핑.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 4644,
+      "exportedPath": "뇌/1. 네트워크보안/06. 스니핑.html",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/07. 스푸핑.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 2329,
+      "exportedPath": "뇌/1. 네트워크보안/07. 스푸핑.html",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/08. VPN과 터널링.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 7214,
+      "exportedPath": "뇌/1. 네트워크보안/08. VPN과 터널링.html",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/09. TCP 세션 하이재킹.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 3296,
+      "exportedPath": "뇌/1. 네트워크보안/09. TCP 세션 하이재킹.html",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/10. DoS.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 2700,
+      "exportedPath": "뇌/1. 네트워크보안/10. DoS.html",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/11. 침입차단 시스템 ( 방화벽 , Firewall ).md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 8503,
+      "exportedPath": "뇌/1. 네트워크보안/11. 침입차단 시스템 ( 방화벽 , Firewall ).html",
+      "dependencies": []
+    },
+    "뇌/1. 네트워크보안/네트워크보안.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 302,
+      "exportedPath": "뇌/1. 네트워크보안/네트워크보안.html",
       "dependencies": []
     },
     "뇌/1. 네트워크보안/12. IDS,IPS.md": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 264,
       "exportedPath": "뇌/1. 네트워크보안/12. IDS,IPS.html",
       "dependencies": []
     },
+    "뇌/1. 네트워크보안/Well-known Prot Number.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 788,
+      "exportedPath": "뇌/1. 네트워크보안/Well-known Prot Number.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스/웹메일 구성.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 2905,
+      "exportedPath": "뇌/2. 리눅스/리눅스/웹메일 구성.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스/APACHE&Httpd 설정.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 859,
+      "exportedPath": "뇌/2. 리눅스/리눅스/APACHE&Httpd 설정.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스/sendmail.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 1145,
+      "exportedPath": "뇌/2. 리눅스/리눅스/sendmail.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스/skel.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 0,
+      "exportedPath": "뇌/2. 리눅스/리눅스/skel.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스/vsftp.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 704,
+      "exportedPath": "뇌/2. 리눅스/리눅스/vsftp.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/리눅스 쉘.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 4519,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/리눅스 쉘.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/메타문자.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 3806,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/메타문자.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/잡다한 참고.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 923,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/잡다한 참고.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/attribute.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 640,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/attribute.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/awk.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 947,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/awk.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/cat.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 927,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/cat.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/cut.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 477,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/cut.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/expr.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 493,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/expr.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/find.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 4940,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/find.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/grep.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 1030,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/grep.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/head, tail.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 633,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/head, tail.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/history.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 1686,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/history.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/more, less.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 1395,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/more, less.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/sed.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 1095,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/sed.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/sort.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 722,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/sort.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/split.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 401,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/split.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/tee xargs calibration.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 1192,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/tee xargs calibration.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/touch.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 496,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/touch.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/리눅스 터미널/tr.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 713,
+      "exportedPath": "뇌/2. 리눅스/리눅스 터미널/tr.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/쉘 프로그래밍/1. 쉘 프로그래밍 기초.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 11496,
+      "exportedPath": "뇌/2. 리눅스/쉘 프로그래밍/1. 쉘 프로그래밍 기초.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/웹서버/2. DNS 서버.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 5722,
+      "exportedPath": "뇌/2. 리눅스/웹서버/2. DNS 서버.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/웹서버/3. LAMP 서버 구축.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 8874,
+      "exportedPath": "뇌/2. 리눅스/웹서버/3. LAMP 서버 구축.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/웹서버/4. 웹운영.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 2448,
+      "exportedPath": "뇌/2. 리눅스/웹서버/4. 웹운영.html",
+      "dependencies": []
+    },
+    "뇌/2. 리눅스/웹서버/1. 웹서버 개요.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 5194,
+      "exportedPath": "뇌/2. 리눅스/웹서버/1. 웹서버 개요.html",
+      "dependencies": []
+    },
     "뇌/2. 리눅스/웹서버/APACHE.md": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 3951,
       "exportedPath": "뇌/2. 리눅스/웹서버/APACHE.html",
       "dependencies": []
     },
     "뇌/2. 리눅스/웹서버/IP Tables.md": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 0,
       "exportedPath": "뇌/2. 리눅스/웹서버/IP Tables.html",
       "dependencies": []
     },
+    "뇌/2. 리눅스/리눅스.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 417,
+      "exportedPath": "뇌/2. 리눅스/리눅스.html",
+      "dependencies": []
+    },
     "뇌/3. 시스템보안/드림핵/hook.md": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 2549,
       "exportedPath": "뇌/3. 시스템보안/드림핵/hook.html",
       "dependencies": []
     },
-    "뇌/3. 시스템보안/MITRE ATT&CK/WINDOWS PASSWORD GUESSING.md": {
-      "modifiedTime": 1734280120140,
-      "sourceSize": 3146,
-      "exportedPath": "뇌/3. 시스템보안/MITRE ATT&CK/WINDOWS PASSWORD GUESSING.html",
+    "뇌/3. 시스템보안/취약점 실습/Buffer overFlow.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 10103,
+      "exportedPath": "뇌/3. 시스템보안/취약점 실습/Buffer overFlow.html",
+      "dependencies": []
+    },
+    "뇌/3. 시스템보안/취약점 실습/Previleged escalation (권한상승).md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 6436,
+      "exportedPath": "뇌/3. 시스템보안/취약점 실습/Previleged escalation (권한상승).html",
+      "dependencies": []
+    },
+    "뇌/3. 시스템보안/MITRE ATT&CK/1. MITRE ATT&CK.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 2546,
+      "exportedPath": "뇌/3. 시스템보안/MITRE ATT&CK/1. MITRE ATT&CK.html",
       "dependencies": []
     },
     "뇌/3. 시스템보안/MITRE ATT&CK/무제 파일.md": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 0,
       "exportedPath": "뇌/3. 시스템보안/MITRE ATT&CK/무제 파일.html",
       "dependencies": []
     },
     "뇌/3. 시스템보안/MITRE ATT&CK/서버 점검 스크립트 작성 실습.md": {
-      "modifiedTime": 1734280120140,
+      "modifiedTime": 1736846144382,
       "sourceSize": 7370,
       "exportedPath": "뇌/3. 시스템보안/MITRE ATT&CK/서버 점검 스크립트 작성 실습.html",
+      "dependencies": []
+    },
+    "뇌/3. 시스템보안/MITRE ATT&CK/WINDOWS PASSWORD GUESSING.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 3146,
+      "exportedPath": "뇌/3. 시스템보안/MITRE ATT&CK/WINDOWS PASSWORD GUESSING.html",
+      "dependencies": []
+    },
+    "뇌/3. 시스템보안/시스템보안.md": {
+      "modifiedTime": 1736846144382,
+      "sourceSize": 295,
+      "exportedPath": "뇌/3. 시스템보안/시스템보안.html",
       "dependencies": []
     }
   }
